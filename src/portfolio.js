@@ -39,7 +39,7 @@ const socialMediaLinks = {
   gitlab: "https://dev.to/hmadhsan",
   facebook: "https://hmadhsan.hashnode.dev/",
   //medium: "https://medium.com/@HammadHassan",
-  stackoverflow: "https://stackoverflow.com/users/10422806/Hammad-Hassan",
+  stackoverflow: "https://stackoverflow.com/users/11011579/hammad-hassan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -189,9 +189,15 @@ const workExperiences = {
       date: "July 2020 – Sep-2022",
       desc: "My responsibilities as a web and mobile software engineer were as follows",
       descBullets: [
-        "Worked as a web and mobile application developer on different projects using JS stack like react, vue, node, next, nuxt and react native.",
-        "Involved in writing maintainable web and mobile application level code to interact with Rest APIs along with unit testing.",
-        "Involved in converting UI mocks into pixel perfect screen with mobile responsiveness."
+        "Core code development of web & mobile applications and peformed code reviews of team members to ensure compliance of client requirements which resulted in significant reduction in bugs and QA review points.",
+        " Conducted demos and presented client deliverables, ensured effective coordination with QA and project delivery teams.",
+        "Created application architecture.",
+        "Developed resuable components.",
+        "Managed projects with teams and ensured a smooth delivery.",
+        "Groomed and trained the team of interns.",
+        "Deployed android and iOS apps to play & appstore.",
+        "Managed content writing for social media posts.",
+        "Sharing ideas and participating in the improvement of user experience.",
       ]
     },
     {
@@ -201,8 +207,9 @@ const workExperiences = {
       date: "Feb 2020 – June-2020",
       desc: "My responsibilities as a web and mobile software engineer were as follows",
       descBullets: [
-        "Worked as a Front End Developer with backend team on a mobile application Islamic Media Entertainment and Web Application Nida- ul-Quran using React Native and Reactjs respectively.",
-        "Participation in team scrums."
+        "Involved in writing maintainable web and mobile application level code to interact with Rest APIs along with unit testing.",
+        "Code reviews and pair programming with fellow developers.",
+        "Ensured smooth delivery of multiple projects."
       ]
     },
     {
