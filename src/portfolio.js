@@ -226,6 +226,14 @@ const workExperiences = {
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2019 – Dec 2019",
       desc: "Worked as a freelance web and mobile application developer with several clients around the world and always got 5-star ratings and excellent reviews on my work."
+    },
+
+    {
+      role: "Volunteer Teacher",
+      company: "ReDI School of Digital Integration",
+      companylogo: require("./assets/images/redi.png"),
+      date: "Feb 2023 - Present",
+      desc: "ReDI School of Digital Integration is the non-profit organization that helps refugees and new immigrants in Germany to learn digital skiils and I am providing my services as a volunteer react.js teacher."
     }
   ]
 };
