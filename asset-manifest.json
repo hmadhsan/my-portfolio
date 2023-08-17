@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.3922d0bf.css",
-    "main.js": "/my-portfolio/static/js/main.3282e1a1.js",
+    "main.js": "/my-portfolio/static/js/main.09da1057.js",
     "static/css/64.917cfe77.chunk.css": "/my-portfolio/static/css/64.917cfe77.chunk.css",
     "static/js/64.a2201178.chunk.js": "/my-portfolio/static/js/64.a2201178.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/my-portfolio/static/css/769.70f3b610.chunk.css",
     "static/js/769.95fd6177.chunk.js": "/my-portfolio/static/js/769.95fd6177.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/my-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/rediCertificate.jpg": "/my-portfolio/static/media/rediCertificate.e29f1777b6967f589c19.jpg",
     "static/media/Agustina.woff": "/my-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/smi.jpg": "/my-portfolio/static/media/smi.95618049c20d5b022459.jpg",
     "static/media/manOnTable.svg": "/my-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -25,7 +26,7 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/talksCardBack.svg": "/my-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3922d0bf.css.map": "/my-portfolio/static/css/main.3922d0bf.css.map",
-    "main.3282e1a1.js.map": "/my-portfolio/static/js/main.3282e1a1.js.map",
+    "main.09da1057.js.map": "/my-portfolio/static/js/main.09da1057.js.map",
     "64.917cfe77.chunk.css.map": "/my-portfolio/static/css/64.917cfe77.chunk.css.map",
     "64.a2201178.chunk.js.map": "/my-portfolio/static/js/64.a2201178.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/my-portfolio/static/css/769.70f3b610.chunk.css.map",
@@ -33,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.3922d0bf.css",
-    "static/js/main.3282e1a1.js"
+    "static/js/main.09da1057.js"
   ]
 }
