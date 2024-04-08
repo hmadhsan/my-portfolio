@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3922d0bf.css",
-    "main.js": "/my-portfolio/static/js/main.7a2605d5.js",
+    "main.css": "/my-portfolio/static/css/main.2279121f.css",
+    "main.js": "/my-portfolio/static/js/main.743ebc57.js",
     "static/css/64.917cfe77.chunk.css": "/my-portfolio/static/css/64.917cfe77.chunk.css",
     "static/js/64.a2201178.chunk.js": "/my-portfolio/static/js/64.a2201178.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/my-portfolio/static/css/769.70f3b610.chunk.css",
@@ -24,16 +24,16 @@
     "static/media/islamicMedia.webp": "/my-portfolio/static/media/islamicMedia.dd8f95bdbd46f24f9f5f.webp",
     "static/media/islamphobia.webp": "/my-portfolio/static/media/islamphobia.05df8fc86da0bc509d9d.webp",
     "index.html": "/my-portfolio/index.html",
-    "static/media/talksCardBack.svg": "/my-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.3922d0bf.css.map": "/my-portfolio/static/css/main.3922d0bf.css.map",
-    "main.7a2605d5.js.map": "/my-portfolio/static/js/main.7a2605d5.js.map",
+    "static/media/talksCardBack.svg": "/my-portfolio/static/media/talksCardBack.99241699e0279aeb0db7.svg",
+    "main.2279121f.css.map": "/my-portfolio/static/css/main.2279121f.css.map",
+    "main.743ebc57.js.map": "/my-portfolio/static/js/main.743ebc57.js.map",
     "64.917cfe77.chunk.css.map": "/my-portfolio/static/css/64.917cfe77.chunk.css.map",
     "64.a2201178.chunk.js.map": "/my-portfolio/static/js/64.a2201178.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/my-portfolio/static/css/769.70f3b610.chunk.css.map",
     "769.95fd6177.chunk.js.map": "/my-portfolio/static/js/769.95fd6177.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3922d0bf.css",
-    "static/js/main.7a2605d5.js"
+    "static/css/main.2279121f.css",
+    "static/js/main.743ebc57.js"
   ]
 }
