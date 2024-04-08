@@ -23,10 +23,10 @@ const greeting = {
   username: "Hammad Hassan",
   title: "Hi, I'm Hammad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "a software engineer, a dreamer, and an adventure seeker. I love tinkering with ideas, building stuff, and working on challenging problems. I also write articles and speak at tech events to share my learnings with fellow tech community. When I'm not coding, I try my best to be a decent tennis player."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1UXcdtidKCgFbSUouoNnKJ_jU_w7SVizKUsWiclsU5Tw/edit", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hmadhsan",
-  linkedin: "https://www.linkedin.com/in/HammadHassan/",
+  linkedin: "https://www.linkedin.com/in/hammad-hassan-bajwa-28058a126/",
   gmail: "HammadHassan70@gmail.com",
   gitlab: "https://dev.to/hmadhsan",
   facebook: "https://hmadhsan.hashnode.dev/",
@@ -69,6 +69,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+   
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "reactjs",
@@ -183,11 +188,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "cre[ai]tion",
+      companylogo: require("./assets/images/creaition_logo.png"),
+      date: "June 2023 - Present",
+      desc: "cre[ai]tion builds a digital designer's muse a platform that inspires through design created by artificial intelligence.",
+      descBullets: [
+        "Redesigning and developing the front end using Angular to enhance user experience and interface design.",
+        "Working on Python for backend development, ensuring efficient data processing and server-side functionality.",
+        "To implement best practices for code optimization, error handling, and documentation, resulting in improved performance and maintainability.",
+        "Deployment of applications on the Google Cloud Kubernetes platform, ensuring scalability, reliability, and seamless integration with other services.",
+        "Pair programming with fellow developers.",
+      ]
+    },
+    {
       role: "Volunteer Teacher",
       company: "ReDI School of Digital Integration",
       companylogo: require("./assets/images/redi.png"),
-      date: "Feb 2023 - Present",
-      desc: "ReDI School of Digital Integration is the non-profit organization that helps refugees and new immigrants in Germany to learn digital skiils and I am providing my services as a volunteer react.js teacher."
+      date: "Feb 2023 - June 2023",
+      desc: "ReDI School of Digital Integration is the non-profit organization that helps refugees and new immigrants in Germany to learn digital skiils and I am providing my services as a volunteer react.js teacher.",
+
     },
     {
       role: "Software Engineer",
@@ -253,6 +273,28 @@ const bigProjects = {
   title: "Major Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/intellevo.jpg"),
+      projectName: "Intellevo AI",
+      projectDesc: "Intellevo AI is a search engine that delivers software and business model diagrams to questions and document creation using language models.",
+      footerLink: [
+        {
+          name: 'Visit Website',
+          url: 'https://intellevo.ai'
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/creaition.png"),
+      projectName: "cre[ai]tion",
+      projectDesc: "creaitions mission is to optimise the highly complex and iterative design process by providing a digital designer’s muse - an algorithm that can identify and extract the brand’s dna to cre[ai]te future designs.",
+      footerLink: [
+        {
+          name: 'Visit Website',
+          url: 'https://beta.creaition.io/'
+        },
+      ]
+    },
     {
       image: require("./assets/images/islamphobia.webp"),
       projectName: "Islamophobia Australia Official App",
@@ -373,11 +415,26 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And certifications 🏆 "),
+  title: emoji("Achievements and certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Volunteer Appreciation",
+      subtitle:
+        "Taught Reactjs course to the immigrants in Germany",
+      image: require("./assets/images/rediCertificate.jpg"),
+      imageAlt: "Redi",
+      footerLink: [
+      
+        {
+          name: "Award",
+          url: "https://www.linkedin.com/feed/update/urn:li:activity:7081895203241873409/"
+        },
+        
+      ]
+    },
     {
       title: "Won First Prize",
       subtitle:
@@ -446,6 +503,24 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
+      url: "https://hmadhsan.hashnode.dev/what-its-like-to-work-on-flutter-with-the-extensive-react-native-background-some-key-observations-1",
+      title: "What it's like to work on Flutter with the extensive React Native Background",
+      description:
+        "So, I have been building mobile applications for over 3 years with the JavaScript framework React Native, But recently I had to work on a Flutter mobile app and here I would be discussing my observations while working on Flutter."
+    },
+    {
+      url: "https://hmadhsan.hashnode.dev/implementing-access-control-for-rbac-abac-in-nodejs",
+      title: "Implementing Access Control for RBAC & ABAC in Node.js 🔒",
+      description:
+        "When creating software or web/mobile application, keeping it secure is crucial. There are two common ways to control who can access certain parts of the software: one is based on people's roles (RBAC).."
+    },
+     {
+      url: "https://hmadhsan.hashnode.dev/how-to-deploy-nextjs-application-on-google-cloud-using-docker",
+      title: "How to deploy Next.js application on google cloud using docker",
+      description:
+        "First off, you need to install docker on your local machine according to your platform, Here you can Get Docker and after installing it, make sure your docker is installed correctly check by running the docker-v command on cmd."
+    },
+    {
       url: "https://hmadhsan.hashnode.dev/a-convenient-way-to-migrate-the-complete-vuejs-application-to-nuxtjs",
       title: "A convenient way to migrate the complete Vue.js application to Nuxt.js!",
       description:
@@ -488,17 +563,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Public Speaking 🎤",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I love public speaking to share my knowledge with fellow tech peers."
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/HammadHassan-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Advanced Routing Techniques in Next.js",
+      subtitle: "Tech event in Vienna, Austria in March 2024",
+      slides_url: "https://docs.google.com/presentation/d/1rKWIskrmAeUUAojUgb4I-QLgNLvXynUWtoWB77_Uaio/edit",
+      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7179021820937809920/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
