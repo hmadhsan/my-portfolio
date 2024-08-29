@@ -39,26 +39,26 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
+          {/* {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
             </li>
-          )}
-          {viewExperience && (
+          )} */}
+          {/* {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          )}
+          )} */}
           {viewOpenSource && (
             <li>
               {/* <a href="#opensource">Open Source</a> */}
             </li>
           )}
-          {viewAchievement && (
+          {/* {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
-          )}
+          )} */}
           {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
@@ -66,12 +66,12 @@ function Header() {
           )}
           {viewTalks && (
             <li>
-             <a href="#talks">Talks</a> 
+             <a href="#talks">Speaking</a> 
             </li>
           )}
-          <li>
+          {/* <li>
             <a href="#contact">Contact Me</a>
-          </li>
+          </li> */}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>

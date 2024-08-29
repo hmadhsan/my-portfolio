@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3922d0bf.css",
-    "main.js": "/my-portfolio/static/js/main.743ebc57.js",
+    "main.css": "/my-portfolio/static/css/main.a3640de9.css",
+    "main.js": "/my-portfolio/static/js/main.499d1304.js",
     "static/css/64.917cfe77.chunk.css": "/my-portfolio/static/css/64.917cfe77.chunk.css",
     "static/js/64.a2201178.chunk.js": "/my-portfolio/static/js/64.a2201178.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/my-portfolio/static/css/769.70f3b610.chunk.css",
@@ -14,7 +14,6 @@
     "static/media/contactMailDark.svg": "/my-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/my-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/quoraLogo.png": "/my-portfolio/static/media/quoraLogo.35fcbfa8f5fab596af98.png",
-    "static/media/stanfordLogo.png": "/my-portfolio/static/media/stanfordLogo.a56762dc6f7a3841042f.png",
     "static/media/asaanghar.png": "/my-portfolio/static/media/asaanghar.d2d0f5f75024cf53d2bb.png",
     "static/media/nidaul.png": "/my-portfolio/static/media/nidaul.b9b057011a4adc453821.png",
     "static/media/manafeth.webp": "/my-portfolio/static/media/manafeth.f76143024fa56cf0724c.webp",
@@ -24,16 +23,15 @@
     "static/media/islamicMedia.webp": "/my-portfolio/static/media/islamicMedia.dd8f95bdbd46f24f9f5f.webp",
     "static/media/islamphobia.webp": "/my-portfolio/static/media/islamphobia.05df8fc86da0bc509d9d.webp",
     "index.html": "/my-portfolio/index.html",
-    "static/media/talksCardBack.svg": "/my-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.3922d0bf.css.map": "/my-portfolio/static/css/main.3922d0bf.css.map",
-    "main.743ebc57.js.map": "/my-portfolio/static/js/main.743ebc57.js.map",
+    "main.a3640de9.css.map": "/my-portfolio/static/css/main.a3640de9.css.map",
+    "main.499d1304.js.map": "/my-portfolio/static/js/main.499d1304.js.map",
     "64.917cfe77.chunk.css.map": "/my-portfolio/static/css/64.917cfe77.chunk.css.map",
     "64.a2201178.chunk.js.map": "/my-portfolio/static/js/64.a2201178.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/my-portfolio/static/css/769.70f3b610.chunk.css.map",
     "769.95fd6177.chunk.js.map": "/my-portfolio/static/js/769.95fd6177.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3922d0bf.css",
-    "static/js/main.743ebc57.js"
+    "static/css/main.a3640de9.css",
+    "static/js/main.499d1304.js"
   ]
 }

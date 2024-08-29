@@ -20,6 +20,19 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      
+{socialMediaLinks.linkedin ? (
+        <a
+          href={socialMediaLinks.twitter}
+          className="icon-button twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-twitter"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}

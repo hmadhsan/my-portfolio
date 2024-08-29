@@ -23,7 +23,7 @@ const greeting = {
   username: "Hammad Hassan",
   title: "Hi, I'm Hammad",
   subTitle: emoji(
-    "a software engineer, a dreamer, and an adventure seeker. I love tinkering with ideas, building stuff, and working on challenging problems. I also write articles and speak at tech events to share my learnings with fellow tech community. When I'm not coding, I try my best to be a decent tennis player."
+    "a software engineer focused on JavaScript stack & Machine Learning. I write articles and speak at tech events to share my learnings with fellow tech community."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1UXcdtidKCgFbSUouoNnKJ_jU_w7SVizKUsWiclsU5Tw/edit", // Set to empty to hide the button
@@ -40,6 +40,8 @@ const socialMediaLinks = {
   facebook: "https://hmadhsan.hashnode.dev/",
   //medium: "https://medium.com/@HammadHassan",
   stackoverflow: "https://stackoverflow.com/users/11011579/hammad-hassan",
+  // twitter: "https://x.com/Hmadhsan",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -143,21 +145,21 @@ const educationInfo = {
       schoolName: "Bingen University of Applied Sciences",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2022 - Present",
-      desc: "Learning following courses with specialization in AI",
-      descBullets: [
-        "AI, ML, System Analysis, Computer Vision, System Architecture, Data Mining",
-      ]
+      // duration: "September 2022 - Present",
+      desc: "Focus on Algorithm Design, System Architecture, Software Development, Artificial Intelligence, Data Science, and Machine Learning.",
+      // descBullets: [
+      //   "Focus on Algorithm Design, System Architecture, Software Development, Artificial Intelligence, Data Science, and Machine Learning.",
+      // ]
     },
-    {
-      schoolName: "SMI University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2015 - Aug 2019",
-      desc: "Completed following main courses with high distinction",
-      descBullets: ["Software Engineering, OOP, Programming Fundamentals, Database Systems, Machine Learning, Artificial Intelligence etc"],
+   // {
+    //   schoolName: "SMI University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2015 - Aug 2019",
+    //   desc: "Completed following main courses with high distinction",
+    //   descBullets: ["Software Engineering, OOP, Programming Fundamentals, Database Systems, Machine Learning, Artificial Intelligence etc"],
 
-    }
+    // }>
   ]
 };
 
@@ -497,9 +499,9 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Tech Articles",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt and some of my articles are as belows.",
+  title: "Blogs",
+  // subtitle:
+  //   "With Love for Developing cool stuff, I love to write and teach others what I have learnt and some of my articles are as belows.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -507,6 +509,18 @@ const blogSection = {
       title: "What it's like to work on Flutter with the extensive React Native Background",
       description:
         "So, I have been building mobile applications for over 3 years with the JavaScript framework React Native, But recently I had to work on a Flutter mobile app and here I would be discussing my observations while working on Flutter."
+    },
+    {
+      url: "https://hmadhsan.hashnode.dev/top-7-data-structures-simply-explained",
+      title: "Top 7 Data Structures simply explained",
+      description:
+        "In this article, I will try to explain the 7 most important data structures in the most easy manner."
+    },
+    {
+      url: "https://hmadhsan.hashnode.dev/time-and-space-complexity",
+      title: "Time and Space Complexity",
+      description:
+        "In the previous articles of this series, I told you that there are multiple ways to solve one problem."
     },
     {
       url: "https://hmadhsan.hashnode.dev/implementing-access-control-for-rbac-abac-in-nodejs",
@@ -563,18 +577,27 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "Public Speaking 🎤",
-  subtitle: emoji(
-    "I love public speaking to share my knowledge with fellow tech peers."
-  ),
-
+  title: "Speaking 🎤",
   talks: [
     {
+      title: "Type-Safe Design Systems with React & TypeScript",
+      subtitle: "React Brussels Conference, October 2024 (upcoming)",
+      // slides_url: "https://docs.google.com/presentation/d/1rKWIskrmAeUUAojUgb4I-QLgNLvXynUWtoWB77_Uaio/edit",
+      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7224728390954590208/"
+    },
+    {
+      title: "Why we should care about Web-Accessibility",
+      subtitle: "Amsterdam JS, May 2024",
+      // slides_url: "https://docs.google.com/presentation/d/1rKWIskrmAeUUAojUgb4I-QLgNLvXynUWtoWB77_Uaio/edit",
+      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7192040653436977152/"
+    },
+    {
       title: "Advanced Routing Techniques in Next.js",
-      subtitle: "Tech event in Vienna, Austria in March 2024",
-      slides_url: "https://docs.google.com/presentation/d/1rKWIskrmAeUUAojUgb4I-QLgNLvXynUWtoWB77_Uaio/edit",
-      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7179021820937809920/"
-    }
+      subtitle: "Vienna JS, March 2024",
+      // slides_url: "https://docs.google.com/presentation/d/1rKWIskrmAeUUAojUgb4I-QLgNLvXynUWtoWB77_Uaio/edit",
+      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7179021820937809920/",
+      image: require("./assets/images/asaanghar.png")
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

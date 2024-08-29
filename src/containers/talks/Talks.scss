@@ -2,12 +2,12 @@
 
 .talk-header-title {
   font-size: 56px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 0px;
 }
 
 .talk-cards-div {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 1rem 1rem;
 }
